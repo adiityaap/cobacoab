@@ -1,0 +1,43 @@
+border-bottom: 10px solid #06d6a0;
+  }
+  
+  .balloonThree:after {
+    border-bottom: 10px solid #ffd166;
+  }
+  
+  .balloonFour:after {
+    border-bottom: 10px solid #118ab2;
+  }
+  
+  .cardInside {
+    position: absolute;
+    background-color: #fff;
+    width: 250px;
+    height:350px;
+    z-index:-1;
+    left:0;
+    top:0;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
+  }
+  
+  p {
+    font-family: 'Brush Script MT', cursive;
+    margin: 40px;
+    color: #333;
+  }
+  
+  .name {
+    position: absolute;
+    left:150px;
+    top:200px;
+    color: #333;
+  }
+  
+  .back {
+    font-family: Tahoma, sans-serif;
+    color: #333;
+    text-align: center;
+    margin:30px; 
+    outline-color:#333;
+    outline-style: dotted;
+  }
